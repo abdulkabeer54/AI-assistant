@@ -1,0 +1,14 @@
+[project]
+name = "ai-assistant-zonixo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "openai-agents>=0.0.17",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.3",
+]
