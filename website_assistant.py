@@ -21,14 +21,14 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://zonixo.com/","https://ai-assistant-8x6e.onrender.com/api/assistant"],
+    allow_origins=["https://zonixo.com","https://ai-assistant-8x6e.onrender.com/api/assistant"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 # --- Website Content Memory ---
-BASE_URL = "https://zonixo.com/"  # Change to your site
+BASE_URL = "https://zonixo.com"  # Change to your site
 PATHS = ["/", "/about", "/services", "/blogs", "/careers", "/contact"]  # Add actual page routes
 website_memory = {}
 
